@@ -1,0 +1,19 @@
+GRR20163080 - ABNER F B COSTA
+GRR20163053 - PETERSON WAGNER KAVA DE CARVALHO
+
+Para esse trabalho, utilizamos lista encadeada de vetores de inteiros para a estrutura de dados.
+
+Escolhemos utilizar vetores de inteiros para a estrutura de dados 'mais interna' porque:
+	- o custo de acesso a cada elemento de um vetor é constante.
+	- sabemos o número de elementos do vetor (é dado o valor logo antes de cada conjunto).
+	- é possível alocar o vetor inteiro de uma vez só, diferente de uma lista encadeada em que temos que alocar cada célula da lista.
+	- não há operações de inserção e remoção dentro dessa estrutura interna, apenas acessos.
+
+Já para a estrutura 'mais externa', escolhemos usar lista encadeada porque:
+	- não sabemos o número de conjuntos que aparecerão.
+	- custo de inserção e remoção de conjuntos é constante.
+
+Porém o custo para buscar ou acessar algum elemento da lista é N e além disso, não é possível implementar um método mais eficiente de busca em lista encadeada como a busca binária, por exemplo.
+
+Na parte 1 do trabalho, nós erramos a ordenação dos conjuntos (esquecemos de levar em consideração o tamanho dos vetores como prioridade ao ordenar).
+Entretanto, corrigimos isto na parte 2.
