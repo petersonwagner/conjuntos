@@ -11,32 +11,6 @@ Parte 2:
 
 Implementar toda a especificação do trabalho.
 
-
-Entrega:
-========
-
-O trabalho deve ser entregue por email para fabiano@inf.ufpr.br até
-23:59 do dia da entrega de cada parte do trabalho.
-
-O email deve conter a identificação completa dos alunos da equipe
-(nome completo, GRR e login no sistema) e um arquivo em anexo com o
-trabalho.
-
-O arquivo com o trabalho deve ser um .tar.gz com o nome dado por:
-
-  login_aluno_1-login_aluno_2.tar.gz
-
-onde [login_aluno_i] é o login no sistema do aluno i da equipe.
-
-O arquivo (.tar.gz) com o trabalho deve conter um diretorio com o
-mesmo nome do arquivo sem a extensão .tar.gz com:
-  - o código fonte do programa (*.[ch]);
-  - Makefile para compilar o código fonte;
-  - Leiame.txt com a identificação completa dos alunos da equipe e uma
-    breve documentação e/ou considerações sobre o trabalho, como erros
-    e dificuldades encontradas.
-
-
 Especificação:
 ==============
 
