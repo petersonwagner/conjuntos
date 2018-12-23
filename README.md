@@ -1,5 +1,4 @@
 # Conjuntos - Trabalho de Algoritmos 2
-##Especificação
 
 Parte 1:
 ========
